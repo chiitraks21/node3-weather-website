@@ -1,5 +1,6 @@
 // will fetch forecast to the website //
 // client side javascript //
+// new commit 
 
 fetch('http://puzzle.mead.io/puzzle').then((response) => {
     response.json().then((data) => {
